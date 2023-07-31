@@ -1,12 +1,22 @@
 ---
-layout: post
+layout: distill
 title: National IQ
 description: subtitle
 tags: Faxtor
 date: 2023-03-03
-related_posts: false
+featured: true
+
+authors:
+  - name: Umar H. Sulaiman
+    url: "https://umar-hs.github.io"
+    affiliations:
+      name: None
+
 toc:
-  beginning: true
+  - name: IQ Nasional Indonesia
+  - name: Kontroversi
+  - name: Bagaimana kita memaknai IQ Nasional?
+
 ---
 
 Pernah dengan tidak mengenai IQ Nasional Indonesia rata-ratanya berkisar antara 78, 84, atau 89? Sebenarnya apa sih arti angka tersebut? Apakah angka tersebut benar dan berarti orang-orang Indonesia memiliki tingkat intelegensi yang “rendah”? Sebelum itu semua, sebenarnya dari mana angka itu berasal?
@@ -33,28 +43,6 @@ Proses estimasi IQ nasional mengalami pembaharuan yang signifikan dimulai dari t
 Dalam dataset terbarunya (Becker, 2019), IQ nasional Indonesia dihitung dari 18 sampel yang diambil dari 8 penelitian. Tabel 1 menunjukkan masing-masing sampel beserta alat ukur yang digunakan, jumlah sampel dan hasil IQ-nya.
 
 
-|Sampel|Sumber|Jenis Tes|N|Raw score|Nilai IQ|
-|---|---|---|---|---|---|
-|1|Bleichrodt et al. (1980)|CPM|25|22,46|60|
-|2|Bleichrodt et al. (1980)|CPM|64|22,88|69,09|
-|3|Bleichrodt et al. (1980)|CPM|74|18,31|88,85|
-|4|Hadidjaja et al. (1996)|CPM|54|15,5|80,3|
-|5|Hadidjaja et al. (1996)|CPM|49|18|86,2|
-|6|Hadidjaja et al. (1996)|CPM|48|18|86,2|
-|7|Hadidjaja et al. (1996)|CPM|99|17|83,83|
-|8|Hadidjaja et al. (1998)|CPM|72|18|85,78|
-|9|Hadidjaja et al. (1998)|CPM|136|16|81,05|
-|10|Hadidjaja et al. (1998)|CPM|62|14|76,37|
-|11|Hadidjaja et al. (1998)|CPM|125|16|81,05|
-|12|Hadidjaja et al. (1998)|CPM|88|17|83,41|
-|13|Heilmann (2013)|CPM|621,06*|6,65|62,99|
-|14|de Neubourg & de Neubourg (2011)|SPM|47|31,58|77,59|
-|15|Rindermann & te Nijenhuis (2012)|SPM|25|35,33|69,33|
-|16|Rindermann & te Nijenhuis (2012)|SPM|25|22,72|83,56|
-|17|Soemantri (1989)|CPM|130||87,71|
-|18|Suwartono et al. (2017)|SPM|583|47,2|91,35|
-
-
 Hal pertama yang menonjol adalah dua alat ukur yang digunakan: Coloured Progressive Matrices (CPM) dan Standard Progressive Matrices (SPM). Keduanya merupakan versi berbeda dari satu jenis tes yang sama: Raven's Progressive Matrices—tes nonverbal yang pertama kali dikembangkan pada tahun 1938, berisi pola-pola tidak lengkap yang perlu diselesaikan oleh pengambil tes (Kaplan & Saccuzzo, 2018).
 
 Nilai IQ dalam tabel merupakan hasil kalkulasi Becker (2019). Nilai mentah (raw score) yang disediakan oleh sumber penelitian dikonversi menjadi nilai IQ. Proses konversi nilai mentah tersebut secara garis besar mirip, tetapi tahapan spesifiknya berbeda sesuai dengan karakteristik sampel.
@@ -64,16 +52,6 @@ Misal, nilai mentah untuk sampel 1 (berasal dari SPM) dikonversi terlebih dahulu
 Nilai IQ yang didapatkan pun masih perlu dikoreksi kembali. Nilai IQ dikoreksi untuk memperhitungkan seperti FLynn Effect, negara standardisasi alat ukur, dan koreksi lainnya sesuai kebutuhan. Hasil IQ yang sudah dikoreksi dari masing-masing sampel kemudian disintesis menghasilkan tiga metrik rata-rata: UW (rata-rata sederhana semua sampel), NW (rata-rata dengan memperhitungkan jumlah partisipan masing-masing sampel), dan QNW (rata-rata dengan memperhitungkan jumlah partisipan dan kualitas data sampel).
 
 Sampai di sini proses perhitungan sudah cukup kompleks, tetapi belum berakhir! Untuk mendapatkan nilai akhir IQ Nasional, QNW dikombinasikan dengan nilai IQ yang didapatkan dari mengkonversi hasil tes prestatif internasional (PISA, TIMSS, dan PIRLS). Metrik IQ ini disebut SAS-IQ. Apabila tidak ada data dari tes prestatif, data dari negara-negara sebelah yang memiliki nilai SAS-IQ digunakan untuk mengekstrapolasi nilai IQ untuk negara tanpa SAS-IQ, metrik ini disebut GEO. Hasil kombinasi dari QNW dan SAS-IQ (atau GEO) ini yang menjadi IQ Nasional suatu negara.
-
-
-|Negara|UW|NW|QNW|SAS-IQ|Nilai IQ Akhir|
-|---|---|---|---|---|---|
-|Indonesia|79,7|79,13|79,07|78,51|78,79|
-|Malaysia|86,05|86,05|86,05|89,12|87,58|
-|Jepang|107,47|106,87|107,31|105,55|106,43|
-|Amerika Serikat|92,74|95,59|95,91|99|97,46|
-|Dunia|86,63|87,68|87,69|88,57|86,72|
-
 
 Untuk Indonesia, hasil kalkulasi IQ terdapat dalam tabel 2. Dengan memperhitungkan SAS-IQ, estimasi IQ Nasional Indonesia adalah 78,79. Hasil ini mengalami sedikit perubahan dari hasil yang dipublikasi dalam Lynn dan Becker (2019), yaitu 78.49, karena perubahan dalam koreksi untuk sampel ke-17. 
 Kedua hasil tersebut ini cukup berbeda dengan estimasi sebelumnya yaitu 89 (Lynn & Varhanen, 2002) dan 85,8 (Lynn & Varhanen, 2012). Perbedaan ini mungkin karena estimasi IQ oleh Lynn dan Becker (2019) serta Becker (2019) menggunakan sampel dari sumber yang lebih beragam dan metodologi yang sedikit berbeda.
@@ -108,29 +86,6 @@ Kritik lain terkait data nasional IQ adalah terkait hasilnya yang outlandish. Se
 Kritik lainnya adalah terkait seberapa sampel yang digunakan mempresentasikan dengan baik populasi nasional. Apabila kita melihat sumber IQ nasional yang diestimasi dalam Lynn dan Vanhanen (2002), kita akan mendapati bahwa nasional IQ Indonesia dihitung hanya dari satu sampel—penelitian tahun 1961 dengan partisipan anak sekolah dasar di Bandung. Meskipun sejak 2002 sumber data untuk Indonesia terus berkembang, hal tersebut tidak pasti sama untuk negara lain dan terdapat poin-poin yang kritikus masih kritik mengenai seberapa representatif data.
 
 Sear (2022) dan Ebbesen (2020) mengkritik poin ini. Dari hasil tinjauan Sear, ia menemukan bahwa IQ nasional untuk 30% negara diestimasi hanya berdasarkan satu sampel. Selain itu, 37% negara diestimasi IQ nasionalnya menggunakan total sampel kurang dari 1000 orang dan 74% negara menggunakan total sampel kurang dari 5000 orang. Karakteristik sampel yang digunakan juga mayoritas menggunakan partisipan anak-anak, dengan 63% IQ nasional diestimasi menggunakan sampel dengan partisipan berumur kurang dari 18 tahun.
-
-
-|Sampel|Sumber|Umur|Karakteristik|Keterangan Studi|
-|---|---|---|---|---|
-|1|Bleichrodt et al. (1980)|17-20|-|Tentang kekurangan Iodine|
-|2|Bleichrodt et al. (1980)|11,5-15,5|-|
-|3|Bleichrodt et al. (1980)|5,5-9,5|-|
-|4|Hadidjaja et al. (1996)|6-8|Diberikan Mebendazole|Tentang dampak Ascaris Lumbricoides terhadap kemampuan kognisi; Sampel yang digunakan berasal dari daerah kumuh di Jakarta Utara|
-|5|Hadidjaja et al. (1996)|6-8|Diberikan Pendidikan Kesehatan|
-|6|Hadidjaja et al. (1996)|6-8|Diberikan Mebendazole dan Pendidikan Kesehatan|
-|7|Hadidjaja et al. (1996)|6-8|Diberikan Placebo|
-|8|Hadidjaja et al. (1998)|6-8|Diberikan Pendidikan Kesehatan|Tentang dampak Ascaris Lumbricoides dan intervensinya terhadap kemampuan kognisi|
-|9|Hadidjaja et al. (1998)|6-8|Dites negatif cacing telur|
-|10|Hadidjaja et al. (1998)|6-8|Diberikan Mebendazole|
-|11|Hadidjaja et al. (1998)|6-8|Diberikan Placebo|
-|12|Hadidjaja et al. (1998)|6-8|Diberikan Mebendazole dan Pendidikan Kesehatan|
-|13|Heilmann (2013)|7-10|-|Studi komparasi anak stunted dan anak tidak stunted. Hanya anak tidak stunted yang digunakan dalam estimasi IQ.|
-|14|de Neubourg & de Neubourg (2011)|9-13|Terpapar Tsunami (Tidak PTSD)|Tentang dampak malnutrisi dan PTSD terhadap short-term working memory pada anak|
-|15|Rindermann & te Nijenhuis (2012)|17-49|-|Tentang mengestimasi IQ rata-rata Bali|
-|16|Rindermann & te Nijenhuis (2012)|7-11|-|
-|17|Soemantri (1989)|8-13|Anak dengan Anemia dan Anak Sehat|Dampak tingkat zat besi dalam darah terhadap pencapaian akademik|
-|18|Suwartono et al. (2017)|13-61|Mahasiswa|Uji reliabilitas dan validitas tes SPM|
-
 
 Metode sampling yang dilakukan oleh sumber primer juga menjadi poin kritik. Metode yang biasanya diambil adalah convenience sampling dan banyak studi yang tidak memberikan informasi mengenai bagaimana metode perekrutan partisipan dilakukan. Mengingat convenience sampling merupakan metode nonprobabilistik, bias dalam sampel sangat dimungkinkan terjadi. Selain itu, terdapat sumber-sumber primer yang dalam merekrut partisipan bertujuan untuk menguji partisipan dengan karakteristik tertentu (misal, penyakit tertentu). Seperti dalam tabel 3 untuk sampel Indonesia, beberapa sampel memiliki karakteristik tertentu yang menjadi tujuan utama sumber primer sampel tersebut untuk merekrut partisipan. 
 
