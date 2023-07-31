@@ -3,20 +3,23 @@ layout: distill
 title: National IQ
 description: subtitle
 tags: Faxtor
-date: 2021-05-22
+date: 2023-03-03
 featured: true
 authors:
   - name: Umar H. Sulaiman
+    url: "https://umar-hs.github.io"
+    affiliations:
+      name: None
  
 toc:
-  - name: Equations
-  - name: Other Typography?
+  - name: Latbeng
+  - name: Metode 
   
 
 ---
 
-## Bagian 1
+## Latbeng
+Hmm
 
-## Bagian 2
-
-## Bagian 3
+## Metode
+Yess
