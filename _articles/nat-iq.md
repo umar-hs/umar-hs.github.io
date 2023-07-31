@@ -13,21 +13,21 @@ authors:
     affiliations:
       name: None
 	  
-bibliography: nat-iq.bib
+
  
 toc:
   - name: IQ Nasional Indonesia
-		#subsections:
-			#- name: Apa itu nilai IQ?
-			#- name: “IQ Nasional”
-			#- name: “IQ Nasional” Indonesia
-			#- name: Rata-rata IQ Indonesia = 78.79?
+		subsections:
+			- name: Apa itu nilai IQ?
+			- name: “IQ Nasional”
+			- name: “IQ Nasional” Indonesia
+			- name: Rata-rata IQ Indonesia = 78.79?
   - name: Kontroversi
-		#subsections:
-			#- name: Metodologi 
-			#- name: Measurement Invariance 
-			#- name: Hasil yang Outlandish
-			#- name: Representativeness data
+		subsections:
+			- name: Metodologi 
+			- name: Measurement Invariance 
+			- name: Hasil yang Outlandish
+			- name: Representativeness data
   - name: Bagaimana kita memaknai IQ Nasional?
 
 ---
@@ -40,12 +40,16 @@ Nah, untuk menjawab pertanyaan-pertanyaan tersebut, dalam artikel ini kita akan 
 
 ### Apa itu nilai IQ?
 Pada awalnya, nilai IQ dihasilkan dengan membagi umur mental seseorang dengan umur sesungguhnya untuk kemudian dikali dengan 100. Hal tersebut karena tes intelegensi pertama yang dibuat Binet dibuat untuk menunjukkan umur mental pengambil tes. Namun, nilai IQ kontemporer cenderung dihasilkan dengan mentransformasikan nilai mentah ke dalam skala IQ dengan rata-rata 100 dan standar deviasi 15. 
+
 Jadi, nilai IQ yang didapatkan oleh pengambil tes menunjukkan posisi individu tersebut dalam populasi. Misal, individu dengan IQ 130 berarti berada dalam posisi dua standar deviasi dari rata-rata—setara dengan persentil ke-97. Posisi tersebut menunjukkan individu dengan IQ 130 memiliki “intelegensi” lebih tinggi dari 97% populasi pengambil tes (atau populasi sampel yang menjadi standar norma). Sebaliknya, individu dengan IQ 70 berarti ekuivalen dalam persentil ke-2, menunjukkan individu tersebut memiliki skor yang lebih tinggi hanya dari 2% populasi pengambil tes atau populasi sampel norma.
+
 Melihat bagaimana nilai IQ dimunculkan, cukup jelas bahwa nilai IQ itu relatif. Tidak seperti “berat” atau “kecepatan” yang memiliki standar baku, nilai IQ bergantung pada populasi yang menjadi standar bagi pengambil tes untuk dibandingkan. Oleh karena itu, IQ 130 bukan berarti “intelegensi” yang dua kali-lipat dari IQ 65 dan IQ 0 bukan berarti seseorang tidak memiliki “intelegensi”.
 
 ### “IQ Nasional”
 Konsep IQ nasional secara umum merujuk pada hasil penelitian Lynn dan kawan-kawan yang pertama kali dipublikasikan pada tahun 2002. Lynn dan Vanhanen (2002) membuat estimasi rata-rata nasional IQ untuk 81 negara dan menemukan korelasi estimasi tersebut dengan variabel-variabel seperti PDB, pencapaian pendidikan, dll. Sejak pertama kali dipublikasikan di 2002, dataset IQ nasional terus dikembangkan dan menghasilkan beberapa publikasi (Lynn & Vanhanen, 2012). 
+
 Untuk mengestimasi IQ nasional, Lynn dan Vanhanen (2002) mengumpulkan penelitian yang melaporkan hasil tes intelegensi dari berbagai negara. Nilai-nilai tersebut dikonversi ke dalam skala IQ dengan IQ Inggris (M=100, SD=15) sebagai rata-rata (disebut sebagai Greenwich IQ).Oleh karena itu, nilai IQ nasional yang dihasilkan oleh Lynn dan Vanhanen menunjukkan posisi IQ negara tersebut relatif terhadap nilai IQ rata-rata Inggris. Apabila sebuah negara memiliki rata-rata IQ 85, negara tersebut berarti memiliki rata-rata IQ 1 standar deviasi di bawah rata-rata nilai IQ Inggris.
+
 Proses estimasi IQ nasional mengalami pembaharuan yang signifikan dimulai dari tahun 2015 ketika kelompok peneliti mulai mencoba untuk membuat proses estimasi IQ nasional lebih transparan dan terstandar. Hasil dari pembaharuan tersebut dilaporkan dalam publikasi Lynn dan Becker pada tahun 2019 yang mengestimasi ulang IQ nasional masing-masing negara dengan data dan metode yang sudah diperbaharui. Dataset bersifat open access dan dapat diakses di <https://viewoniq.org/?page_id=9>.
 
 ### “IQ Nasional” Indonesia
@@ -73,9 +77,13 @@ Dalam dataset terbarunya (Becker, 2019), IQ nasional Indonesia dihitung dari 18 
 |18|Suwartono et al. (2017)|SPM|583|47,2|91,35|
 
 Hal pertama yang menonjol adalah dua alat ukur yang digunakan: Coloured Progressive Matrices (CPM) dan Standard Progressive Matrices (SPM). Keduanya merupakan versi berbeda dari satu jenis tes yang sama: Raven's Progressive Matrices—tes nonverbal yang pertama kali dikembangkan pada tahun 1938, berisi pola-pola tidak lengkap yang perlu diselesaikan oleh pengambil tes (Kaplan & Saccuzzo, 2018).
+
 Nilai IQ dalam tabel merupakan hasil kalkulasi Becker (2019). Nilai mentah (raw score) yang disediakan oleh sumber penelitian dikonversi menjadi nilai IQ. Proses konversi nilai mentah tersebut secara garis besar mirip, tetapi tahapan spesifiknya berbeda sesuai dengan karakteristik sampel.
+
 Misal, nilai mentah untuk sampel 1 (berasal dari SPM) dikonversi terlebih dahulu menjadi nilai mentah dalam tes APM (Advanced Progressive Matrix), baru kemudian dikonversi skor IQ setelah dicari posisinya dalam tabel norma yang distandarisasi di Inggris. Sedangkan, nilai mentah untuk sampel 13 diekstrapolasi terlebih dahulu menjadi nilai hasil tes SPM full karena peneliti untuk sampel 13 hanya menggunakan satu set alat ukur SPM (tidak semuanya). Setelah itu baru nilai IQ untuk sampel 13 dihasilkan dari nilai mentah yang sudah diekstrapolasi. Selain itu, terdapat juga penelitian yang tidak menyediakan nilai mentah seperti sampel 17 sehingga nilai IQ yang disediakan oleh peneliti sampel digunakan langsung.
+
 Nilai IQ yang didapatkan pun masih perlu dikoreksi kembali. Nilai IQ dikoreksi untuk memperhitungkan seperti FLynn Effect, negara standardisasi alat ukur, dan koreksi lainnya sesuai kebutuhan. Hasil IQ yang sudah dikoreksi dari masing-masing sampel kemudian disintesis menghasilkan tiga metrik rata-rata: UW (rata-rata sederhana semua sampel), NW (rata-rata dengan memperhitungkan jumlah partisipan masing-masing sampel), dan QNW (rata-rata dengan memperhitungkan jumlah partisipan dan kualitas data sampel).
+
 Sampai di sini proses perhitungan sudah cukup kompleks, tetapi belum berakhir! Untuk mendapatkan nilai akhir IQ Nasional, QNW dikombinasikan dengan nilai IQ yang didapatkan dari mengkonversi hasil tes prestatif internasional (PISA, TIMSS, dan PIRLS). Metrik IQ ini disebut SAS-IQ. Apabila tidak ada data dari tes prestatif, data dari negara-negara sebelah yang memiliki nilai SAS-IQ digunakan untuk mengekstrapolasi nilai IQ untuk negara tanpa SAS-IQ, metrik ini disebut GEO. Hasil kombinasi dari QNW dan SAS-IQ (atau GEO) ini yang menjadi IQ Nasional suatu negara.
 
 |Negara|UW|NW|QNW|SAS-IQ|Nilai IQ Akhir|
@@ -95,16 +103,21 @@ Apabila kita menerima angka tersebut, kita berarti menerima rata-rata IQ pendudu
 
 ## Kontroversi
 Perlu ditekankan bahwa penelitian Lynn dkk merupakan penelitian yang sangat kontroversial (dan Lynn sendiri cukup kontroversial). Dalam kritiknya, Sear (2022) secara gamblang mengatakan bahwa dataset Lynn tidak akurat, bias, dan “tidak boleh digunakan untuk mengambil kesimpulan mengenai variasi intelegensi manusia.” 
+
 EHBEA (European Human Behaviour and Evolution Association) pada Juli 2020 mengeluarkan pernyataan bahwa penggunaan tidak bisa dipertanggungjawabkan. Satu artikel jurnal yang sudah dipublikasi (Clark et al., 2020), ditarik kembali karena menggunakan dataset Lynn dan Vanhanen (2012). Penarikan (retraction) diminta oleh penulisnya sendiri karena Clark et al. berpendapat estimasi IQ nasional yang digunakan sulit dipertanggungjawabkan.
+
 Seperti yang dapat dilihat, reaksi terhadap dataset Lynn dapat dikatakan cukup keras. Reaksi dan kritik yang keras ini tidak tanpa alasan. Bagian berikut menjabarkan mengapa dataset Lynn cukup kontroversial.
 
 ### Metodologi
 Sear (2022) dalam meninjau dataset Lynn dan Becker (2019) menyimpulkan bahwa tidak ada standar konsisten dalam inklusi/eksklusi penelitian yang dijadikan sampel untuk estimasi IQ. Di suatu negara, sampel dengan penyakit tertentu dimasukkan dalam kalkulasi, tetapi sampel dengan penyakit yang sama dikeluarkan. Untuk estimasi IQ Ekuador, sampel yang telah terpapar timah (lead, zat yang menurunkan kemampuan kognisi) dimasukkan dalam kalkulasi (Sear, 2022). Sear juga berkomentar bagaimana penelitian dari negara sub-saharan africa dengan hasil IQ tinggi yang diidentifikasi oleh Wicherts dkk (2010) tidak dimasukkan dalam dataset Becker. 
+
 Selain dalam proses persiapan dataset, Sear juga mengkritik metode konversi nilai yang dilakukan oleh Lynn. Proses konversi dari satu nilai mentah ke nilai mentah dari tes lain, ekstrapolasi dari hasil subset tes menjadi full tes, dan konversi nilai mentah tersebut menjadi IQ berpotensi untuk menambah bias dan error (ditambah dengan hasil tes-tes yang digunakan belum tentu dapat dibandingkan antara satu sama lain).
+
 Kurang adanya bukti bahwa alat ukur yang digunakan dalam berbagai penelitian tersebut mengukur hal yang sama (intelegensi/kemampuan kognitif) juga menjadi kritik tambahan. Sear bahkan berpendapat bahwa membuat alat ukur kemampuan kognitif yang mengukur konstruk yang sama di semua budaya tidak terlalu bermakna mengingat alat ukur kemampuan kognitif (dan alat ukur psikologis pada umumnya) dikembangkan spesifik terhadap budaya/masyarakat tertentu.
 
 #### Measurement Invariance
 Secara umum, alat ukur yang digunakan dalam berbagai penelitian belum ditunjukkan memiliki measurement invariance—alat ukur tetap mengukur konstruk yang sama meskipun populasi partisipan yang diukur berbeda (Faxtor pernah membahas ini di post Instagram, lho! Bisa di akses di [sini](https://www.instagram.com/p/Cird2YwvnYU/?igshid=MzRlODBiNWFlZA==), [sini](https://www.instagram.com/p/Ci9YgyuPRNi/?igshid=MzRlODBiNWFlZA==), dan [sini](https://www.instagram.com/p/CjCjy6EPiGC/?igshid=MzRlODBiNWFlZA==) ). 
+
 Apabila alat ukur tidak memiliki hal tersebut, maka kita tidak bisa menyimpulkan apapun apabila membandingkan hasil tes antara populasi berbeda. Hal ini juga diakui sebagai kelemahan dataset Lynn bahkan oleh pihak yang lebih simpatik terhadap proyek Lynn seperti Kierkegaard (2021) dan Warne (2022)
 
 ### Hasil yang Outlandish
@@ -112,6 +125,7 @@ Kritik lain terkait data nasional IQ adalah terkait hasilnya yang outlandish. Se
 
 ### Representativeness data
 Kritik lainnya adalah terkait seberapa sampel yang digunakan mempresentasikan dengan baik populasi nasional. Apabila kita melihat sumber IQ nasional yang diestimasi dalam Lynn dan Vanhanen (2002), kita akan mendapati bahwa nasional IQ Indonesia dihitung hanya dari satu sampel—penelitian tahun 1961 dengan partisipan anak sekolah dasar di Bandung. Meskipun sejak 2002 sumber data untuk Indonesia terus berkembang, hal tersebut tidak pasti sama untuk negara lain dan terdapat poin-poin yang kritikus masih kritik mengenai seberapa representatif data.
+
 Sear (2022) dan Ebbesen (2020) mengkritik poin ini. Dari hasil tinjauan Sear, ia menemukan bahwa IQ nasional untuk 30% negara diestimasi hanya berdasarkan satu sampel. Selain itu, 37% negara diestimasi IQ nasionalnya menggunakan total sampel kurang dari 1000 orang dan 74% negara menggunakan total sampel kurang dari 5000 orang. Karakteristik sampel yang digunakan juga mayoritas menggunakan partisipan anak-anak, dengan 63% IQ nasional diestimasi menggunakan sampel dengan partisipan berumur kurang dari 18 tahun.
 
 |Sampel|Sumber|Umur|Karakteristik|Keterangan Studi|
@@ -136,11 +150,16 @@ Sear (2022) dan Ebbesen (2020) mengkritik poin ini. Dari hasil tinjauan Sear, ia
 |18|Suwartono et al. (2017)|13-61|Mahasiswa|Uji reliabilitas dan validitas tes SPM|
 
 Metode sampling yang dilakukan oleh sumber primer juga menjadi poin kritik. Metode yang biasanya diambil adalah convenience sampling dan banyak studi yang tidak memberikan informasi mengenai bagaimana metode perekrutan partisipan dilakukan. Mengingat convenience sampling merupakan metode nonprobabilistik, bias dalam sampel sangat dimungkinkan terjadi. Selain itu, terdapat sumber-sumber primer yang dalam merekrut partisipan bertujuan untuk menguji partisipan dengan karakteristik tertentu (misal, penyakit tertentu). Seperti dalam tabel 3 untuk sampel Indonesia, beberapa sampel memiliki karakteristik tertentu yang menjadi tujuan utama sumber primer sampel tersebut untuk merekrut partisipan. 
+
 Hal-hal tersebut dapat membuat sampel tidak merepresentasikan populasi nasional sehingga error serta bias akan muncul apabila kita mengestimasi IQ “nasional” dari sampel-sampel tersebut (Sear, 2022).
 
 ## Bagaimana kita memaknai IQ Nasional?
 Melihat kritik dalam bagian sebelumnya apakah berarti konstruk “IQ Nasional” tidak bermakna karena dataset Lynn yang bermasalah? 
+
 Pihak yang simpatis terhadap proyek Lynn kerap menggunakan korelasi metrik IQ nasional dengan variabel lain. Warne (2022) menunjukkan korelasi metrik IQ nasional dengan variabel eksternal seperti pertumbuhan ekonomi, pencapaian pendidikan nasional, kesehatan warga negara, dan kualitas institusi politik negara. Selain itu, Warne juga menunjukkan bahwa hasil nasional tes prestatif yang mengukur konstruk mirip dengan dengan tes IQ berkorelasi dengan metrik IQ nasional. Dari hasil kedua itu, ia menyimpulkan bahwa metrik IQ nasional setidaknya memiliki “makna” dan merefleksikan suatu konstruk.
+
 Meskipun demikian, Warne tetap konservatif dalam memaknai nilai IQ nasional. Bagi Warne, sejauh data yang ada, IQ nasional hanya berarti seberapa mahir sebuah negara dalam menyelesaikan tes terstandardisasi—tanpa menyentuh aspek “intelegensi.” 
+
 Secara keseluruhan, IQ nasional yang berasal dari proyek Lynn, Vanhanen, dan sekarang Becker merupakan metrik kontroversial yang beberapa kritik pertanyakan mengenai representativeness, metodologi, dan hasilnya. Meskipun demikian, terdapat pihak yang simpatis terhadap proyek tersebut menggunakan korelasi metrik IQ nasional dengan variabel eksternal untuk menunjukkan kebermaknaan IQ nasional. Namun, perlu dicatat bahwa pihak-pihak tersebut juga memiliki kritik tersendiri terhadap dataset. Selain itu, pemaknaan yang diberikan misal oleh Warne juga terbatas.
+
 Mengingat hal-hal tersebut, sepertinya kita perlu kehati-hati dalam memaknai dan menginterpretasikan metrik tersebut. 
