@@ -111,6 +111,7 @@ Kritik lain terkait data nasional IQ adalah terkait hasilnya yang outlandish. Se
 ### Representativeness data
 Kritik lainnya adalah terkait seberapa sampel yang digunakan mempresentasikan dengan baik populasi nasional. Apabila kita melihat sumber IQ nasional yang diestimasi dalam Lynn dan Vanhanen (2002), kita akan mendapati bahwa nasional IQ Indonesia dihitung hanya dari satu sampel—penelitian tahun 1961 dengan partisipan anak sekolah dasar di Bandung. Meskipun sejak 2002 sumber data untuk Indonesia terus berkembang, hal tersebut tidak pasti sama untuk negara lain dan terdapat poin-poin yang kritikus masih kritik mengenai seberapa representatif data.
 Sear (2022) dan Ebbesen (2020) mengkritik poin ini. Dari hasil tinjauan Sear, ia menemukan bahwa IQ nasional untuk 30% negara diestimasi hanya berdasarkan satu sampel. Selain itu, 37% negara diestimasi IQ nasionalnya menggunakan total sampel kurang dari 1000 orang dan 74% negara menggunakan total sampel kurang dari 5000 orang. Karakteristik sampel yang digunakan juga mayoritas menggunakan partisipan anak-anak, dengan 63% IQ nasional diestimasi menggunakan sampel dengan partisipan berumur kurang dari 18 tahun.
+
 |Sampel|Sumber|Umur|Karakteristik|Keterangan Studi|
 |---|---|---|---|---|
 |1|Bleichrodt et al. (1980)|17-20|-|Tentang kekurangan Iodine|
@@ -131,6 +132,7 @@ Sear (2022) dan Ebbesen (2020) mengkritik poin ini. Dari hasil tinjauan Sear, ia
 |16|Rindermann & te Nijenhuis (2012)|7-11|-|
 |17|Soemantri (1989)|8-13|Anak dengan Anemia dan Anak Sehat|Dampak tingkat zat besi dalam darah terhadap pencapaian akademik|
 |18|Suwartono et al. (2017)|13-61|Mahasiswa|Uji reliabilitas dan validitas tes SPM|
+
 Metode sampling yang dilakukan oleh sumber primer juga menjadi poin kritik. Metode yang biasanya diambil adalah convenience sampling dan banyak studi yang tidak memberikan informasi mengenai bagaimana metode perekrutan partisipan dilakukan. Mengingat convenience sampling merupakan metode nonprobabilistik, bias dalam sampel sangat dimungkinkan terjadi. Selain itu, terdapat sumber-sumber primer yang dalam merekrut partisipan bertujuan untuk menguji partisipan dengan karakteristik tertentu (misal, penyakit tertentu). Seperti dalam tabel 3 untuk sampel Indonesia, beberapa sampel memiliki karakteristik tertentu yang menjadi tujuan utama sumber primer sampel tersebut untuk merekrut partisipan. 
 Hal-hal tersebut dapat membuat sampel tidak merepresentasikan populasi nasional sehingga error serta bias akan muncul apabila kita mengestimasi IQ “nasional” dari sampel-sampel tersebut (Sear, 2022).
 
