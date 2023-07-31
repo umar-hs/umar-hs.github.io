@@ -1,34 +1,11 @@
 ---
-layout: distill
+layout: post
 title: National IQ
 description: subtitle
 tags: Faxtor
 date: 2023-03-03
-featured: true
-
-authors:
-  - name: Umar H. Sulaiman
-    url: "https://umar-hs.github.io"
-    affiliations:
-      name: None
-	  
-
- 
 toc:
-  - name: IQ Nasional Indonesia
-		subsections:
-			- name: Apa itu nilai IQ?
-			- name: “IQ Nasional”
-			- name: “IQ Nasional” Indonesia
-			- name: Rata-rata IQ Indonesia = 78.79?
-  - name: Kontroversi
-		subsections:
-			- name: Metodologi 
-			- name: Measurement Invariance 
-			- name: Hasil yang Outlandish
-			- name: Representativeness data
-  - name: Bagaimana kita memaknai IQ Nasional?
-
+  beginning: true
 ---
 
 Pernah dengan tidak mengenai IQ Nasional Indonesia rata-ratanya berkisar antara 78, 84, atau 89? Sebenarnya apa sih arti angka tersebut? Apakah angka tersebut benar dan berarti orang-orang Indonesia memiliki tingkat intelegensi yang “rendah”? Sebelum itu semua, sebenarnya dari mana angka itu berasal?
