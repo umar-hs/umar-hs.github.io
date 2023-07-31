@@ -5,27 +5,29 @@ description: subtitle
 tags: Faxtor
 date: 2023-03-03
 featured: true
-bibliography: nat-iq.bib
+
 giscus_comments: true
 authors:
   - name: Umar H. Sulaiman
     url: "https://umar-hs.github.io"
     affiliations:
       name: None
+	  
+bibliography: nat-iq.bib
  
 toc:
   - name: IQ Nasional Indonesia
-		subsections:
-			- name: Apa itu nilai IQ?
-			- name: “IQ Nasional”
-			- name: “IQ Nasional” Indonesia
-			- name: Rata-rata IQ Indonesia = 78.79?
+		#subsections:
+			#- name: Apa itu nilai IQ?
+			#- name: “IQ Nasional”
+			#- name: “IQ Nasional” Indonesia
+			#- name: Rata-rata IQ Indonesia = 78.79?
   - name: Kontroversi
-		subsections:
-			- name: Metodologi 
-			- name: Measurement Invariance 
-			- name: Hasil yang Outlandish
-			- name: Representativeness data
+		#subsections:
+			#- name: Metodologi 
+			#- name: Measurement Invariance 
+			#- name: Hasil yang Outlandish
+			#- name: Representativeness data
   - name: Bagaimana kita memaknai IQ Nasional?
 
 ---
