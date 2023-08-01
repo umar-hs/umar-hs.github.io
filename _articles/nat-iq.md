@@ -5,7 +5,7 @@ description: subtitle
 tags: Faxtor
 date: 2023-03-03
 featured: true
-
+bibliography: nat-iq.bib
 authors:
   - name: Umar H. Sulaiman
     url: "https://umar-hs.github.io"
