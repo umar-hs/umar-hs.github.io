@@ -35,10 +35,11 @@
     {
       "name": "Leader Transgression (Undergrad thesis)",
       "summary": "Investigating followers' social identity-based behavior when leader commit transgression.",
-      "highlights": ["Planned and executed the project",
+      "highlights": [
+        "Planned and executed the project",
         "Designed an experimental study",
         "Collected and analyzed the data with R"
-                  ],
+      ],
       "startDate": "2022",
       "endDate": "2023",
       "url": "https://osf.io/3djch/?view_only=8ae0e522936649edac6d91cc957b59c7"
@@ -92,5 +93,4 @@
       ]
     }
   ]
- 
 }
